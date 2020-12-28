@@ -4,10 +4,6 @@ jobs:
       - image: 'circleci/node:10.16.0'
     steps:
       - checkout
-      - node/install:
-            install-npm: true
-            node-version: latest
-      - run: node --version
       - run: git clone https://github.com/wndsrfr21/landingpagetemplate.git
       - run: sudo npm install -g firebase-tools
       #- run: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN_ALEX --non-interactive
