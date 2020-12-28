@@ -1,5 +1,5 @@
 jobs:
-  install-node:
+  upload-to-firebase:
     docker:
       - image: 'circleci/node:10.16.0'
     steps:
@@ -15,4 +15,4 @@ version: 2.1
 workflows:
   deploy_alexanderdonn_website:
     jobs:
-      - install-node
+      - upload-to-firebase
