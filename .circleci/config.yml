@@ -13,6 +13,6 @@ orbs:
   node: circleci/node@3.0.0
 version: 2.1
 workflows:
-  deploy_alexanderdonn_website:
+  deploy_website:
     jobs:
       - upload-to-firebase
