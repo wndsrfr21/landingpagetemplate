@@ -10,3 +10,7 @@ Here are my preferred font combos:
 - Libre Baskerville Montserrat
 - Fjalla One & Libre Baskerville
 - Oswald & Quattrocento
+
+# Firebase Token
+If you need to regenrate a firebase token open a command line and type `firebase login:ci`
+Here is the reference documentation: https://firebaseopensource.com/projects/firebase/firebase-tools/
