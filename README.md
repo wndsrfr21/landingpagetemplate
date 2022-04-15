@@ -1,15 +1,11 @@
 # Landing Page Template
 
-This HTML file is meant to be a starting file for beginner demos to follow. 
+This template is meant to be a landing page starter kit. 
 
-Here are my preferred font combos:
-- Playfair Display & Source Sans Pro
-- Oswald & Merriweather
-- Quicksand
-- Lora Roboto 
-- Libre Baskerville Montserrat
-- Fjalla One & Libre Baskerville
-- Oswald & Quattrocento
+1) clone this repository
+2) Create a Google Firebase project
+3) Change the Firebase project name within .firebaserc to your new firebase project name
+4) 
 
 # Firebase Token
 If you need to regenrate a firebase token open a command line and type `firebase login:ci`
