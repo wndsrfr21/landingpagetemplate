@@ -7,7 +7,7 @@ This template is meant to be a landing page starter kit. Only use this if the fo
 - Cloudflare routes the domain
 
 # The Steps
-1) clone this repository
+1) Clone this repository
 2) Create a Google Firebase project
 3) Change the Firebase project name within .firebaserc to your new firebase project name
 4) Create a new firebase token with `firebase login:ci` and update the file ".circleci/config.yml"
