@@ -11,6 +11,7 @@ This template is meant to be a landing page starter kit. Only use this if the fo
 2) Create a Google Firebase project
 3) Change the Firebase project name within .firebaserc to your new firebase project name
 4) Create a new firebase token with `firebase login:ci` and update the file ".circleci/config.yml"
+5) Create DNS entries - Go to firebase. On left nav bar click HOSTING. In new section on the right, click the blue ADD CUSTOM DOMAIN. Follow instructions. 
 
 # Email
 sendgrid.com
